@@ -6,12 +6,10 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+2년 동안 4개의 회사를 다니며 PHP, RoR, React with typescript, Java 등을 활용해 프론트엔드, 백엔드 개발자로 일하고 있다.
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+여러 프로젝트를 하며 얻은 경험들을 기록하고 싶었는데 매일 미루다 이제서야 시작한다.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+영어 공부, 개발 커뮤니티, 토이 프로젝트, 알고리즘 공부 등 다양한 자기 계발을 공유 하며 성장을 기록하는 블로그를 만들고 싶다.
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+일단 앞으로 하고 싶은 것들을 다 적을테니, 언젠가는 할 거라고 믿는다.

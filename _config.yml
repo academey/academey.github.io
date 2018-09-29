@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: HJ Blog
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: 23살에 2년을 회사에 있었던 대학생의 블로그
+subtitle: "개발, 산업기능요원, 일상, 사진"
 email: academey@gmail.com
 name: academey
 description: >
@@ -18,7 +18,7 @@ description: >
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://academey.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"

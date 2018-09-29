@@ -4,6 +4,7 @@ title: "Posts"
 permalink: /posts/
 ---
 
+{{ site.categories | jsonify }}
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
@@ -13,7 +14,9 @@ permalink: /posts/
     {% endif %}
   {% endfor %}
   <ul class="posts-list">
+
   {% for post in site.categories[cat] %}
+
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
