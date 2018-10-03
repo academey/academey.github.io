@@ -3,8 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+![dragonball](/assets/park_hyun_joon.jpeg)
+<center><U>23살 박현준</U></center>
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+&nbsp;
 
 2년 동안 4개의 회사를 다니며 PHP, RoR, React with typescript, Java 등을 활용해 프론트엔드, 백엔드 개발자로 일하고 있다.
 

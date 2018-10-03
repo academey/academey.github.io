@@ -4,7 +4,6 @@ title: "Posts"
 permalink: /posts/
 ---
 
-{{ site.categories | jsonify }}
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>

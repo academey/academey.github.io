@@ -41,7 +41,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: academey
+disqus_shortname: academey-blog
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
