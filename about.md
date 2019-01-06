@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![dragonball](/assets/park_hyun_joon.jpeg)
+![dragonball](/assets/about/park_hyun_joon.jpeg)
 <center><U>23살 박현준</U></center>
 
 &nbsp;
