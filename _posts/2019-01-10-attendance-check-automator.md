@@ -75,9 +75,11 @@ Chrome을 실행할 외부 프로그램으로 지정한 다음 javascript 로 UI
 <center><U>타겟 사이트</U></center>
 &nbsp;
 
-<code><pre>document.getElementById('menuLink381').click();</pre></code>이런 코드로 당신은 저 dom element를 클릭할 수 있다. 이제, Applescript 에 저 코드를 담도록 작성해보자. 대충 요런 느낌이다. (코드가 개판인 점은 양해를 바란다....)
+<pre><code>document.getElementById('menuLink381').click();</code></pre>
 
-<code><pre>on run {input, parameters}
+이런 코드로 당신은 저 dom element를 클릭할 수 있다. 이제, Applescript 에 저 코드를 담도록 작성해보자. 대충 요런 느낌이다. (코드가 개판인 점은 양해를 바란다....)
+
+<pre><code>on run {input, parameters}
 tell application "Google Chrome"
 open location "https://cafe.naver.com/webcenter"
 delay 5
@@ -85,12 +87,13 @@ execute front window's active tab javascript "document.getElementById('menuLink3
 end tell
 return input
 end run
-
-</pre></code>
+</code></pre>
 
 ![apple_script_write](/assets/attendance-check-automator/applescript_write.png)
 
 <center><U>Applescript 작성</U></center>
+
+&nbsp;
 
 실행 버튼을 눌러보면, 사이트에 들어가서 출석체크 메뉴 버튼을 누른다! 정상 작동한다. 물론 출석체크를 하려면 input 칸을 채우고 출석체크 버튼을 한 번 더 눌러야겠지만, 그런 기본적인 돔 조작은 여러분들이 할 수 있을것이라 믿는다.
 
@@ -110,6 +113,8 @@ end run
 
 ![app_admit](/assets/attendance-check-automator/chrome_applescript_admit.png)
 
+&nbsp;
+
 <center><U>Chrome의 applescript 사용권한 설정</U></center>
 
 # 2. Google Calendar
@@ -121,6 +126,8 @@ _필자는 crontab, launchctl 등 서비스 관리 프레임워크들을 사용�
 ## 2-1 ) 일정 설정
 
 일정을 만들고, 알림을 눌러보자. 알림에 사용자화를 보면 파일열기 목록이 있다. 여기서 파일 열기를 주기적으로 실행해준다. 정말 간단하다.
+&nbsp;
+
 &nbsp;
 
 ![alarm_user_defiened](/assets/attendance-check-automator/alarm_user_defiened.png)
