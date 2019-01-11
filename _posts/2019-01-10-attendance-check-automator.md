@@ -26,7 +26,7 @@ Automator 를 실행해서, 응용 프로그램을 선택하자.
 <center><U>Automator 실행화면</U></center>
 &nbsp;
 
-## 1-32 ) Applescript 블럭 추가
+## 1-2 ) Applescript 블럭 추가
 
 UI를 보면 대충 감이 올텐테, [스크래치](https://scratch.mit.edu/)같이 Drag & Drop 으로 입력, 결과, 실행 세가지 기능을 가진 블록을 추가해준 뒤 저장하면 프로그램으로 추출해준다. 우리는 단순하게 Applescript 만 쓸 거라 자세하게 알고 싶다면 [Automator 공식홈페이지](http://www.macosxautomation.com/automator/) 에서 알아보자.
 
@@ -113,9 +113,9 @@ end run
 
 ![app_admit](/assets/attendance-check-automator/chrome_applescript_admit.png)
 
-&nbsp;
-
 <center><U>Chrome의 applescript 사용권한 설정</U></center>
+
+&nbsp;
 
 # 2. Google Calendar
 
