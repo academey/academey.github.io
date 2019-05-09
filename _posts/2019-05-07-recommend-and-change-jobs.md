@@ -42,9 +42,11 @@ categories: sanup
 
 # 3. 전직할 회사를 어떻게 찾는가?
 
-우리 산업기능요원은 알다시피 병역업체로만 이직할 수 있습니다. 따라서 병역업체로 등록되어 있어야 하는데, 그 여부는 [병역지정업체검색](https://work.mma.go.kr/caisBYIS/search/byjjecgeomsaek.do)에서 검색해보시면 알 수 있습니다. [잡플래닛](https://www.jobplanet.co.kr/job_postings/search?query=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90) 혹은 [로켓펀치](https://www.jobplanet.co.kr/job_postings/search?query=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90) 혹은 [잡플래닛](https://www.wanted.co.kr/tag_search?tag=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90)에서 산업기능요원 키워드로 검색하는 것도 도움이 될 수 있습니다.
+우리 산업기능요원은 알다시피 병역업체로만 이직할 수 있습니다. 따라서 병역업체로 등록되어 있어야 하는데, 그 여부는 [병역지정업체검색](https://work.mma.go.kr/caisBYIS/search/byjjecgeomsaek.do)에서 검색해보시면 알 수 있습니다. [잡플래닛](https://www.jobplanet.co.kr/job_postings/search?query=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90) 혹은 [로켓펀치](https://www.rocketpunch.com/search?keywords=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90) 혹은 [원티드](https://www.wanted.co.kr/tag_search?tag=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90)에서 산업기능요원 키워드로 검색하는 것도 도움이 될 수 있습니다.
 
 그렇게 해서 내가 들어가고 싶은 회사를 찾았다면, 어떻게든 연락을 해보세요! 홈페이지에 채용 공고가 올라와있지 않더라도 경력직은 상시 채용을 진행하는 경우가 많았습니다. 또한 자사 홈페이지의 지원 방법을 따르거나 리쿠르팅 메일로 연락하는게 회사에 더 관심이 있다 라고 생각하는 경우도 있었으니 참고하시기 바랍니다.
+
+또한, 사람인 혹은 링크드인의 추천 기능을 설정해서 헤드헌터한테 회사를 추천받을 수도 있습니다. 너무 많은 연락과 지원하고 싶지 않은 회사 추천이 많았지만 한 2군데 정도는 건졌습니다.
 
 # 4. 산업기능요원 전직 회사 추천 리스트
 
