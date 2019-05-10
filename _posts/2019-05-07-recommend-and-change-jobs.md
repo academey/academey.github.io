@@ -3,6 +3,7 @@ layout: post
 title: "2019 IT 산업기능요원 전직 회사 추천 리스트"
 author: academey
 categories: sanup
+cover: "/assets/recommend-and-change-jobs/career-switch.jpg"
 ---
 
 # 0. 들어가며

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "개발자로 취직하는 방법"
+title: "개발자로 취직하는 방법(IT 산업기능요원 취직하는 방법)"
 author: academey
-categories: etc
+categories: sanup
+cover: "/assets/how-to-get-job-as-developer/fresh-developer.jpg"
 ---
 
 # 0. 들어가며

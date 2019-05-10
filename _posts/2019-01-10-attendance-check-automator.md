@@ -3,6 +3,7 @@ layout: post
 title: "전자 출석체크 자동으로 하는 법 (Mac + Automator + Google Calendar)"
 author: academey
 categories: etc
+cover: "/assets/attendance-check-automator/automator_execute.png"
 ---
 
 # 0. 들어가며
