@@ -60,6 +60,7 @@ cover: "/assets/recommend-and-change-jobs/career-switch.jpg"
 - 매쉬코리아
 - 버즈니
 - 버킷플레이스
+- [베이글코드](https://cafe.naver.com/webcenter/651597) (a.k.a 갓이글코드)
 - 샌드버드
 - 스타일쉐어
 - 어니스트펀드
