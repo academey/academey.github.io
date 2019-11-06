@@ -32,10 +32,7 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
 
         3. Template
 
-            HTML 코드를 변수라던가 태그들을 이용해서 표시해줌. ex) 
-            ```html
-            {% extends "base_genric.html" %}
-            ```
+            HTML 코드를 변수라던가 태그들을 이용해서 표시해줌. 
 
 
         4. Form 
