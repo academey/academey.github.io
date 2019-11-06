@@ -5,6 +5,7 @@ author: academey
 categories: django
 cover: "/assets/django-tutorial/cover.jpeg"
 ---
+{% raw %}
 
 ## 0. 들어가며
 Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampus.co.kr/dev_online_pyweb/) 강좌를 학습하며 정리한 글입니다. 글 내용 중 문제가 있거나 문의하실 내용이 있으면 댓글을 남겨주세요!
@@ -32,7 +33,10 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
 
         3. Template
 
-            HTML 코드를 변수라던가 태그들을 이용해서 표시해줌. 
+            HTML 코드를 변수라던가 태그들을 이용해서 표시해줌.
+            ```html
+            ex) {% extends "base_genric.html" %}
+            ```
 
 
         4. Form 
@@ -54,3 +58,5 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
 5. Django에 대한 이해 점검
     1. 사용자 앱을 만들자. fcuser 라는 걸 만들고 MVC 설정을 해보자.
     2. 만든 앱이 있으면, 메인 프로젝트에 앱을 등록해줘야 한다. fc_commuinity/settings.py 의 INSTALLED_APPS 에 'board', 'fcuser'를 추가해주자.
+
+{% endraw %}

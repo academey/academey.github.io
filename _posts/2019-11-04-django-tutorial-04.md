@@ -5,6 +5,7 @@ author: academey
 categories: django
 cover: "/assets/django-tutorial/cover.jpeg"
 ---
+{% raw %}
 ## 0. 들어가며
 Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampus.co.kr/dev_online_pyweb/) 강좌를 학습하며 정리한 글입니다. 글 내용 중 문제가 있거나 문의하실 내용이 있으면 댓글을 남겨주세요!
 
@@ -259,3 +260,5 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
         ```
 
     form 에서 비밀번호가 맞은 경우는 user_id 를 인스턴스 변수로 담아서 건내준다! 그리고 뷰 로직에서는 폼을 검증한 이후에 넣어준 user_id를 session 에 담아주면 된다!
+
+{% endraw %}

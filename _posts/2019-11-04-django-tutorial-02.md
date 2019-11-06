@@ -5,7 +5,7 @@ author: academey
 categories: django
 cover: "/assets/django-tutorial/cover.jpeg"
 ---
-
+{% raw %}
 ## 0. 들어가며
 Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampus.co.kr/dev_online_pyweb/) 강좌를 학습하며 정리한 글입니다. 글 내용 중 문제가 있거나 문의하실 내용이 있으면 댓글을 남겨주세요!
 
@@ -164,3 +164,5 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
 7. MTV의 T, V 만들기 - 회원에 필드 추가하기
     1. useremail 을 추가해보자. 모델에 useremail 필드 추가하고 makemigrations 하려는데, 기본값이 필요하다고 한다. 필드에다가 default 옵션을 추가하던지, 그냥 콘솔 창에 추가하던지 둘 중 하나로 기본값을 넣어준다.
     2. 그리고 템플릿과 뷰단 로직을 추가해준다. 
+
+{% endraw %}

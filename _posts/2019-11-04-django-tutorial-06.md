@@ -5,6 +5,7 @@ author: academey
 categories: django
 cover: "/assets/django-tutorial/cover.jpeg"
 ---
+{% raw %}
 ## 0. 들어가며
 Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampus.co.kr/dev_online_pyweb/) 강좌를 학습하며 정리한 글입니다. 글 내용 중 문제가 있거나 문의하실 내용이 있으면 댓글을 남겨주세요!
 
@@ -96,3 +97,5 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
     ```
 
     주의!! 만약 board.save 전에 add를 하면 에러가 난다. 왜냐면 board를 생성할 때 id가 만들어지는데, 그 이후에 m:n 관계를 연결할 수 있기 때문이다.
+
+{% endraw %}

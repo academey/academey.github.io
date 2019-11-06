@@ -5,6 +5,7 @@ author: academey
 categories: django
 cover: "/assets/django-tutorial/cover.jpeg"
 ---
+{% raw %}
 ## 0. 들어가며
 Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampus.co.kr/dev_online_pyweb/) 강좌를 학습하며 정리한 글입니다. 글 내용 중 문제가 있거나 문의하실 내용이 있으면 댓글을 남겨주세요!
 
@@ -25,3 +26,4 @@ static 파일 관리하기(+CDN 소개)
 4. 그리고 [https://bootswatch.com](https://bootswatch.com/) 에 들어가서 min.css 파일을 받아서 넣어주고, 필요한 html 파일에 아래와 같이 추가한다.
 
     <link rel="stylesheet" href="/static/bootstrap.min.css" />
+{% endraw %}
