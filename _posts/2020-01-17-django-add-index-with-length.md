@@ -29,30 +29,5 @@ Fast campus 의 [파이썬 웹 개발 올인원 패키지](https://www.fastcampu
     1. pythonanywhere → files → open bash console here 버튼을 누르면 콘솔 켜지는데, 해당 압축 파일 unzip 한 다음에 그 폴더로 이동하자.
     2. 그 폴더 안에서 가상환경을 설치해줘야 한다. 이를 위해서 virtualenv 를 사용하자. `virtualenv --python=python3.7 fc_env` 로 만들자. 그리고 활성화 시키자. `source fc_env/bin/activate`  그리고 `pip install django` 를 실행한다.
     3. 이제 해당 폴더에 접근해서,  `python[manage.py](http://manage.py) collectstatic` 이라는 명령어를 치면 모아진다.
-    4. 그리고 이제 `python [manage.py](http://manage.py) migrate`를 시키자. 나는 데이터를 포함시켜서 올렸기 때문에 안 해도 된다.
-    5. 설정이 끝났고, 웹 메뉴로 가서 Add new App 을 하고, manual configuration → 3.7 → Code 에다가 source code 경로를 써주자.  `/home/academey/fc_community`
-    6. 그리고 wsgi 파일 누르면 막 긴 설정이 뜨는데, 다른 거 다 주석처리하고 쭉 내려가다 DJANGO 써져있는 게 있다. 다음과 같이 조금 커스터마이징 해주자.
-    ```python
-        # +++++++++++ DJANGO +++++++++++
-        # To use your own django app use code like this:
-        import os
-        import sys
-        
-        # assuming your django settings file is at '/home/academey/mysite/mysite/settings.py'
-        # and your manage.py is is at '/home/academey/mysite/manage.py'
-        path = '/home/academey/fc_community'
-        if path not in sys.path:
-            sys.path.append(path)
-        
-        os.environ['DJANGO_SETTINGS_MODULE'] = 'fc_community.settings'
-        
-        # then:
-        from django.core.wsgi import get_wsgi_application
-        application = get_wsgi_application()
-    ```
-    7. 이제 소스 코드 설정이 되었는데, python everywhere 에 가상환경도 설정 해주자. `/home/academey/fc_env` 
-
-    8. 다 된 줄 알았겠지만, static 을 설정해줘야 스타일이 설정된다.
-    
 
 {% endraw %}
